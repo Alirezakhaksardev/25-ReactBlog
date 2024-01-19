@@ -31,7 +31,7 @@ class UserController extends Controller
                 'status' => 200,
                 'user_id' => $user->id,
                 'email' => $user->email,
-                'message' => 'ٍثبت نام شما با موفقیت انجام شد.'
+                'message' => !ثبت نام شما با موفقیت انجام شد.'
             ]);
         }
 

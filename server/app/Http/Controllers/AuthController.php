@@ -33,7 +33,7 @@ class AuthController extends Controller
                 'username'=>$user->name,
                 'user_id'=>$user->id,
                 'token'=>$token,
-                'message'=> 'ٍثبت نام شما با موفقیت انجام شد.'
+                'message'=> 'ثبت نام شما با موفقیت انجام شد.'
             ]);
         }
     }
@@ -70,7 +70,7 @@ class AuthController extends Controller
                     'username'=>$user->name,
                     'user_id'=>$user->id,
                     'token'=>$token,
-                    'message'=> 'ٍورود با موفقیت انجام شد.',
+                    'message'=> 'ورود با موفقیت انجام شد.',
                     'role'=> $role,
                 ]);
             }

@@ -18,6 +18,6 @@ module.exports = {
     ],
     "no-unused-vars": "off",
     "react/prop-types": "off",
-    'react/jsx-key': [1, { checkFragmentShorthand: true }]
+    'react/jsx-key': [1, { checkFragmentShorthand: true }],
   },
 }
